@@ -46,7 +46,7 @@ function Feedbacks() {
     const checkboxData = checkboxarray.filter((item) => checkboxValue.includes(item.id)).map((item) => item.content);
 
     return (
-        <div className="pt-[90px]">
+        <div className="pt-[90px] pb-10">
             <h1 className="text-center text-5xl md:text-7xl my-5 dark:bg-black dark:text-white">
                 <b>{t('header')}</b>
             </h1>

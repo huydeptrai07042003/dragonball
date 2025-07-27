@@ -23,7 +23,7 @@ function SettingHeader() {
         <TippyHeadless
             render={(attrs) => (
                 <div
-                    className="bg-black dark:bg-white ms-2 text-white dark:text-black text-sm md:text-md mt-2 p-1 rounded-md w-25 sm:w-35"
+                    className="bg-black dark:bg-white ms-2 text-white dark:text-black text-sm md:text-md mt-2 p-1 rounded-md w-25 sm:w-35 shadow-2xl shadow-amber-100"
                     tabIndex="-1"
                     {...attrs}
                 >
@@ -36,7 +36,7 @@ function SettingHeader() {
             onClickOutside={onHideResult}
             onHide={()=>{setIsHide(true)}}
         >
-            <div className="self-center text-2xl group relative cursor-pointer w-30 md:w-40" onClick={handleClick}>
+            <div className="text-2xl group relative cursor-pointer" onClick={handleClick}>
                 <FontAwesomeIcon
                     className={clsx("absolute top-[50%] translate-y-[-50%] transition-opacity duration-300",isShow ? 'opacity-0' : 'opacity-100')}
                     icon={faBars}
