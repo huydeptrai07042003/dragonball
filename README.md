@@ -13,3 +13,4 @@ npm i react-i18next i18next
 # React Router
 Thư viện để router
 # React Loading Skeleton
+Làm khung khi loading Api

@@ -61,7 +61,7 @@ function SearchBar({ children, onSearchChange, searchValue }) {
     const { t } = useTranslation('products');
 
     return (
-        <div className=" bg-black dark:text-white dark:bg-white  py-3 flex gap-6">
+        <div className=" bg-black dark:text-white dark:bg-white py-3 flex gap-6 flex-col sm:flex-row">
             <Tippy
                 render={(attrs) => (
                     <div
@@ -77,7 +77,7 @@ function SearchBar({ children, onSearchChange, searchValue }) {
                 interactive
                 onClickOutside={onHideResult}
             >
-                <div className="ms-12">
+                <div className="sm:ms-12 text-center">
                     <SearchInput
                         hideBoolan={() => {
                             setIsShow(true);
@@ -89,7 +89,7 @@ function SearchBar({ children, onSearchChange, searchValue }) {
                 </div>
             </Tippy>
             <Button
-                className="bg-white dark:bg-black px-2 rounded-lg font-bold hover:opacity-70 transition-opacity duration-300"
+                className="w-fit self-center sm:self-auto px-5 py-2 sm:py-0 bg-white dark:bg-black sm:px-2 rounded-lg font-bold hover:opacity-70 transition-opacity duration-300"
                 onClick={() => {
                     setOpenedList(true);
                 }}

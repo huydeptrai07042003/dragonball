@@ -1,6 +1,6 @@
 /* Import Be Vietnam Pro từ Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap');
-@import 'tailwindcss'; 
+@import 'tailwindcss';
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
@@ -15,5 +15,13 @@
 }
 
 a {
-    align-self: center;
+    align-self: center; 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh; 
+    box-sizing: border-box;
 }

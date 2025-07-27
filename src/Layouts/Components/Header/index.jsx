@@ -8,7 +8,7 @@ function Header() {
     const { t } = useTranslation('header');
 
     return (
-        <header className="w-full bg-white dark:bg-black dark:text-white flex justify-around text-center fixed z-100">
+        <header className="w-full bg-white dark:bg-black dark:text-white flex justify-around text-center fixed z-100 h-20 sm:h-auto">
             <Button to="/" className="logo w-40">
                 <Image src={dragonball_logo} alt={dragonball_logo} />
             </Button>
@@ -25,8 +25,7 @@ function Header() {
                 <Button className="hover:border-b-1 w-[80px] sm:w-auto transition-all duration-200" to="/Contact">
                     {t('contact')}
                 </Button>
-            </div>
-
+            </div>  
             <SettingHeader />
         </header>
     );

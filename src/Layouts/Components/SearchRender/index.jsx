@@ -105,7 +105,11 @@ function SearchRender({ Id }) {
                                         >
                                             <option hidden>{t('render.Transformations')}</option>
                                             {character.transformations.map((transformName) => {
-                                                return <option key={transformName.id} value={transformName.name}>{transformName.name}</option>;
+                                                return (
+                                                    <option key={transformName.id} value={transformName.name}>
+                                                        {transformName.name}
+                                                    </option>
+                                                );
                                             })}
                                         </select>
                                     )}
@@ -113,8 +117,8 @@ function SearchRender({ Id }) {
                             )}
                         </div>
                     )}
-                    <div className="flex w-auto mx-auto gap-10 lg:gap-40 xl:gap-70">
-                        <div className="w-auto h-80">
+                    <div className="flex w-auto mx-auto h-40 gap-10 lg:gap-40 xl:gap-70">
+                        <div className="w-auto h-40 sm:h-80">
                             {isLoading ? (
                                 <Skeleton height={300} width={250} />
                             ) : (
@@ -122,12 +126,12 @@ function SearchRender({ Id }) {
                             )}
                         </div>
                         {skin && (
-                            <div className="content-center w-fit text-9xl">
+                            <div className="content-center w-fit text-xl sm:text-3xl md:text-7xl lg:text-9xl">
                                 <FontAwesomeIcon icon={faArrowRight} />
                             </div>
                         )}
                         {skin && (
-                            <div className="w-auto h-80 relative">
+                            <div className="w-auto h-40 sm:h-80 relative">
                                 {isSkinLoading && (
                                     <Skeleton height={300} width={250} className="absolute top-0 left-0 z-10" />
                                 )}
