@@ -2,12 +2,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { publicRoutes } from './routes';
 import DefautLayout from './Layouts/DefaultLayout';
 import { Fragment } from 'react';
+import ScrollToTop from './components/scrollToTop';
 
 function App() {
     return (
         <>
             <BrowserRouter>
                 <div className='dark:bg-black'>
+                <ScrollToTop/>
                     <Routes>
                         {publicRoutes.map((route, index) => {
                             const Page = route.component;
