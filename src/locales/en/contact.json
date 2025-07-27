@@ -1,0 +1,47 @@
+{
+    "header": "Feedbacks",
+    "name": "Name",
+    "email": "Email",
+    "radioQuestion": "Does this website meet your needs?",
+    "checkboxQuestion": "What do you like about this page?",
+    "Confirm Form":"Confirm Form",
+    "Meet Needs": "Meet Needs",
+    "Advantages of the web": "Advantages of the web",
+    "radioArray": [
+        {
+            "id": 1,
+            "content": "Yes"
+        },
+        {
+            "id": 2,
+            "content": "Definitely Yes"
+        },
+        {
+            "id": 3,
+            "content": "Absolutely Yes"
+        }
+    ],
+    "checkboxArray": [
+        {
+            "id": 1,
+            "content": "Design"
+        },
+        {
+            "id": 2,
+            "content": "Content"
+        },
+        {
+            "id": 3,
+            "content": "Performance"
+        },
+        {
+            "id": 4,
+            "content": "Responsive"
+        }
+    ],
+    "placeholder": {
+        "radio": "Enter your name",
+        "checkbox": "Enter your email"
+    },
+    "warn":"Please fill out all input in form"
+}

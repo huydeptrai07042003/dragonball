@@ -1,0 +1,71 @@
+{
+    "name": "About Us",
+    "categories": [
+        {
+            "title": "About Dragon Ball Wiki",
+            "list": [
+                {
+                    "title": "Dragon Ball Wiki statistics",
+                    "content": "There are currently 19,622,015 users registered with Dragon Ball Wiki, and as of today, there are 9,259 featured articles in the encyclopedia; every day, visitors from around the world make edits and create new articles to enhance the amount of knowledge held by the Dragon Ball Wiki encyclopedia..."
+                },
+                {
+                    "title": "Who writes Dragon Ball Wiki?",
+                    "content": "Regular editors can be everyone from expert scholars to casual readers, all with one thing in common: the general Dragon Ball Wiki user is a fan of the Dragon Ball franchise..."
+                }
+            ]
+        },
+        {
+            "title": "Making the best use of Dragon Ball Wiki",
+            "list": [
+                {
+                    "title": "Exploring Dragon Ball Wiki",
+                    "content": "Many visitors come to this site to acquire knowledge, others to share knowledge..."
+                },
+                {
+                    "title": "Basic navigation in Dragon Ball Wiki",
+                    "content": "Dragon Ball Wiki articles are all linked, or cross-referenced..."
+                },
+                {
+                    "title": "Using Dragon Ball Wiki as a research tool",
+                    "content": "As a wiki, articles are never complete..."
+                },
+                {
+                    "title": "How is Dragon Ball Wiki different from a paper guide?",
+                    "content": "Major differences between Dragon Ball Wiki and a traditional paper guide include the very low cost..."
+                },
+                {
+                    "title": "Strengths, weaknesses, and article quality in Dragon Ball Wiki",
+                    "content": "Dragon Ball Wiki's greatest strengths, weaknesses and differences arise because it is open to anyone..."
+                }
+            ]
+        },
+        {
+            "title": "Contributing to Dragon Ball Wiki",
+            "list": [
+                {
+                    "content": "Anyone can contribute to Dragon Ball Wiki by clicking on the edit this page tab in an article..."
+                },
+                {
+                    "title": "Editing Dragon Ball Wiki pages",
+                    "content": "Dragon Ball Wiki uses a simple yet powerful page layout to allow editors..."
+                },
+                {
+                    "title": "Editorial administration, oversight and management",
+                    "content": "The Dragon Ball Wiki community is largely self-organising..."
+                }
+            ]
+        },
+        {
+            "title": "Feedback and questions",
+            "list": [
+                {
+                    "content": "Dragon Ball Wiki itself is run as a communal effort..."
+                },
+                {
+                    "title": "Contacting individual Dragon Ball Wiki editors",
+                    "content": "To contact individual contributors, leave a message on their talk page..."
+                }
+            ]
+        }
+    ]
+}

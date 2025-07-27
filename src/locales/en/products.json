@@ -1,0 +1,18 @@
+{
+    "header": "DragonBall characters List",
+    "Listbutton": "CHAMP LIST",
+    "modalTitle": "Characters List",
+    "placeholder": "Search name",
+    "render": {
+        "MaxKi": "Max Ki:",
+        "Race": "Race:",
+        "Affiliation": "Affiliation:",
+        "Transformations": "Transformations",
+        "page": "Page",
+        "firstpage": "First Page",
+        "prevpage": "Prev",
+        "nextpage": "Next",
+        "lastpage": "Last Page"
+    },
+    "load": "Loading..."
+}

@@ -1,0 +1,54 @@
+{
+    "MainHomeContent": {
+        "name": "Hồ sơ DragonBall"
+    },
+    "HomeBody": {
+        "title": "Tóm tắt",
+        "summary": "Dragon Ball là một trong những bộ manga và anime mang tính biểu tượng nhất thế giới, được tạo ra bởi Akira Toriyama vào năm 1984.",
+        "mainstory": "Tổng quan cốt truyện chính:",
+        "stories": {
+            "Dragon Ball (Original Series)": {
+                "title": "Dragon Ball (Loạt phim gốc)",
+                "content": "Theo chân Son Goku khi còn nhỏ trong hành trình tìm kiếm 7 viên ngọc rồng – những quả cầu huyền bí có thể triệu hồi Rồng Thần Shenron để ban điều ước."
+            },
+            "Dragon Ball Z": {
+                "title": "Dragon Ball Z",
+                "content": "Khắc họa cuộc sống trưởng thành của Goku khi anh bảo vệ Trái Đất khỏi những kẻ thù hùng mạnh như các chiến binh Saiyan, Frieza, Cell và Majin Buu. Đây là phần nổi tiếng nhất của loạt phim, giới thiệu trạng thái Siêu Saiyan huyền thoại."
+            },
+            "Dragon Ball Super": {
+                "title": "Dragon Ball Super",
+                "content": "Mở rộng vũ trụ với các vị Thần Hủy Diệt (Beerus), Thiên Sứ (Whis) và các giải đấu đa vũ trụ như Giải đấu Sức mạnh."
+            },
+            "Dragon Ball GT (Non-Canon)": {
+                "title": "Dragon Ball GT (Không chính thức)",
+                "content": "Phần hậu truyện không chính thức, trong đó Goku bị biến trở lại thành đứa trẻ. Đây không phải là phần thuộc cốt truyện chính của Akira Toriyama."
+            }
+        }
+    },
+    "EventUpdate": {
+        "title": "Tin tức và cập nhật từ Wiki",
+        "renderTitle": "Thông tin:",
+        "warn": "Chọn danh mục bạn muốn khám phá...",
+        "type": {
+            "Anime": {
+                "title": "Phim",
+                "content": "Dragon Ball Daima đã kết thúc vào ngày 28 tháng 2 năm 2024. Super Dragon Ball Heroes, một anime quảng bá dựa trên trò chơi Dragon Ball Heroes, đã kết thúc vào tháng 8 năm 2024."
+            },
+            "Manga": {
+                "title": "Truyện",
+                "content": "Manga Dragon Ball Super, do Toyotarou sáng tác và trước đây là Akira Toriyama, hiện đang tạm ngưng kể từ khi kết thúc phần Super Hero. Khi trở lại, manga sẽ tiếp tục phát hành các chương mới vào khoảng ngày 20 mỗi tháng trên trang chính thức của Viz."
+            },
+            "Video Games": {
+                "title": "Trò chơi điện tử",
+                "content": "Dragon Ball: Sparking! Zero đã phát hành toàn cầu vào tháng 10 năm 2024 kèm theo các gói DLC sắp ra mắt. Dragon Ball Xenoverse 2 vẫn đang tiếp tục ra mắt nội dung mới với cốt truyện FUTURE SAGA. Dragon Ball Z: Kakarot sẽ nhận được hai bản mở rộng liên quan đến Dragon Ball Daima trước tháng 2 năm 2026."
+            },
+            "Articles": {
+                "title": "Bài viết",
+                "content": "Vào tháng 1 năm 2025, chúng ta đã đạt mốc 9.000 bài viết. Mục tiêu tiếp theo là 9.500. Làm tốt lắm mọi người!"
+            }
+        }
+    },
+    "MostSearch": {
+        "title": "Nhân vật được tìm kiếm nhiều nhất"
+    }
+}

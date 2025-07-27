@@ -1,0 +1,47 @@
+{
+    "header": "Đóng góp phản hồi",
+    "name": "Họ và tên",
+    "email": "Email",
+    "radioQuestion": "Trang web này có đáp ứng nhu cầu của bạn không?",
+    "checkboxQuestion": "Bạn thích điều gì ở trang này?",
+    "Confirm Form": "Xác nhận biểu mẫu",
+    "Meet Needs": "Đáp ứng nhu cầu",
+    "Advantages of the web": "Ưu điểm của trang web",
+    "radioArray": [
+        {
+            "id": 1,
+            "content": "Có"
+        },
+        {
+            "id": 2,
+            "content": "Chắc chắn có"
+        },
+        {
+            "id": 3,
+            "content": "Hoàn toàn có"
+        }
+    ],
+    "checkboxArray": [
+        {
+            "id": 1,
+            "content": "Thiết kế"
+        },
+        {
+            "id": 2,
+            "content": "Nội dung"
+        },
+        {
+            "id": 3,
+            "content": "Hiệu suất"
+        },
+        {
+            "id": 4,
+            "content": "Tương thích đa thiết bị"
+        }
+    ],
+    "placeholder": {
+        "radio": "Nhập tên của bạn",
+        "checkbox": "Nhập email của bạn"
+    },
+    "warn": "Vui lòng điền đầy đủ tất cả các ô trong biểu mẫu"
+}

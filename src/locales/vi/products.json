@@ -1,0 +1,18 @@
+{
+    "header": "Tra cứu nhân vật DragonBall",
+    "Listbutton": "Danh sách nhân vật",
+    "modalTitle": "Danh sách nhân vật",
+    "placeholder": "Tra cứu tướng",
+    "render": {
+        "MaxKi": "Ki tối đa:",
+        "Race": "Chủng tộc:",
+        "Affiliation": "Tổ chức liên kết:",
+        "Transformations": "Các dạng biến đổi",
+        "page": "Trang",
+        "firstpage": "Trang đầu",
+        "prevpage": "Trước",
+        "nextpage": "Sau",
+        "lastpage": "Trang cuối"
+    },
+    "load": "Loading..."
+}

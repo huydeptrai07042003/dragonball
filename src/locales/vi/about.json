@@ -1,0 +1,71 @@
+{
+    "name": "Về Chúng Tôi",
+    "categories": [
+        {
+            "title": "Giới thiệu về Dragon Ball Wiki",
+            "list": [
+                {
+                    "title": "Thống kê của Dragon Ball Wiki",
+                    "content": "Hiện có 19.622.015 người dùng đã đăng ký với Dragon Ball Wiki và tính đến hôm nay, có 9.259 bài viết nổi bật trong bách khoa toàn thư; mỗi ngày, người truy cập từ khắp nơi trên thế giới chỉnh sửa và tạo bài viết mới để nâng cao lượng kiến thức có trong Dragon Ball Wiki..."
+                },
+                {
+                    "title": "Ai là người viết bài trên Dragon Ball Wiki?",
+                    "content": "Các biên tập viên thường xuyên có thể là bất kỳ ai, từ học giả chuyên môn đến người đọc thông thường, tất cả đều có điểm chung: người dùng Dragon Ball Wiki là người hâm mộ của loạt phim Dragon Ball..."
+                }
+            ]
+        },
+        {
+            "title": "Sử dụng hiệu quả Dragon Ball Wiki",
+            "list": [
+                {
+                    "title": "Khám phá Dragon Ball Wiki",
+                    "content": "Nhiều người truy cập vào trang web để tìm kiếm kiến thức, trong khi những người khác chia sẻ kiến thức..."
+                },
+                {
+                    "title": "Điều hướng cơ bản trên Dragon Ball Wiki",
+                    "content": "Các bài viết trên Dragon Ball Wiki đều được liên kết với nhau hoặc tham chiếu chéo..."
+                },
+                {
+                    "title": "Sử dụng Dragon Ball Wiki như một công cụ nghiên cứu",
+                    "content": "Vì là một wiki nên các bài viết không bao giờ hoàn chỉnh..."
+                },
+                {
+                    "title": "Dragon Ball Wiki khác gì so với sách hướng dẫn truyền thống?",
+                    "content": "Sự khác biệt lớn giữa Dragon Ball Wiki và sách hướng dẫn truyền thống là chi phí rất thấp để thêm bài viết mới..."
+                },
+                {
+                    "title": "Điểm mạnh, điểm yếu và chất lượng bài viết trên Dragon Ball Wiki",
+                    "content": "Điểm mạnh, điểm yếu và sự khác biệt lớn nhất của Dragon Ball Wiki xuất phát từ việc nó mở cho tất cả mọi người..."
+                }
+            ]
+        },
+        {
+            "title": "Đóng góp cho Dragon Ball Wiki",
+            "list": [
+                {
+                    "content": "Bất kỳ ai cũng có thể đóng góp cho Dragon Ball Wiki bằng cách nhấn vào tab chỉnh sửa trang trong một bài viết..."
+                },
+                {
+                    "title": "Chỉnh sửa các trang của Dragon Ball Wiki",
+                    "content": "Dragon Ball Wiki sử dụng bố cục đơn giản nhưng mạnh mẽ để người chỉnh sửa có thể tập trung vào nội dung..."
+                },
+                {
+                    "title": "Quản trị và giám sát biên tập",
+                    "content": "Cộng đồng Dragon Ball Wiki chủ yếu được tổ chức tự quản, cho phép bất kỳ ai xây dựng uy tín như một biên tập viên có năng lực..."
+                }
+            ]
+        },
+        {
+            "title": "Phản hồi và câu hỏi",
+            "list": [
+                {
+                    "content": "Dragon Ball Wiki được vận hành như một nỗ lực cộng đồng. Đây là một dự án cộng đồng nhằm tạo ra bách khoa toàn thư."
+                },
+                {
+                    "title": "Liên hệ với các biên tập viên cụ thể",
+                    "content": "Để liên hệ với người đóng góp cụ thể, hãy để lại tin nhắn trên trang thảo luận của họ..."
+                }
+            ]
+        }
+    ]
+}
