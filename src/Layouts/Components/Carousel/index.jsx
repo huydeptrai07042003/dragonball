@@ -23,18 +23,28 @@ function Carousel({ items }) {
         <>
             <Swiper
                 modules={[Autoplay]}
-                slidesPerView={4}
+                breakpoints={{
+                    0: {
+                        slidesPerView: 2, 
+                    },
+                    350: {
+                        slidesPerView: 3, 
+                    },
+                    450: {
+                        slidesPerView: 4, 
+                    },
+                }}
                 autoplay={{ delay: 100 }}
                 speed={2000}
-                loop={items.length > 4}
+                loop={items.length > 3}
             >
                 {items.map((item, index) => {
                     return (
                         <SwiperSlide key={index}>
-                            <Button className="w-full h-full group cursor-pointer" onClick={() => handleClick(item)}>
-                                <div className="mx-auto w-[200px] h-[200px]">
+                            <Button className="group cursor-pointer" onClick={() => handleClick(item)}>
+                                <div className="w-[100px] sm:w-[180px] md:w-[200px] h-[200px] mx-auto content-center">
                                     <img
-                                        className="w-full h-auto group-hover:scale-110 transition-transform duration-200"
+                                        className="w-full group-hover:scale-110 transition-transform duration-200"
                                         src={item.image}
                                         alt={item.name}
                                     />

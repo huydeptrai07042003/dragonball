@@ -6,7 +6,7 @@ function Footer() {
     const { t } = useTranslation('footer');
 
     return (
-        <div className="bg-black text-white dark:bg-white dark:text-black w-full">
+        <div className="bg-black text-white dark:bg-white dark:text-black">
             <footer className=" text-center mx-20 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 pt-15 pb-10">
                 <div className="logo">
                     <img src="https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60" />
