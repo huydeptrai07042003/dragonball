@@ -117,8 +117,8 @@ function SearchRender({ Id }) {
                             )}
                         </div>
                     )}
-                    <div className="flex w-auto mx-auto h-40 sm:h-80 gap-10 lg:gap-40 xl:gap-70">
-                        <div className="w-auto h-40 sm:h-80">
+                    <div className="flex w-full mx-auto justify-around h-100 pb-20 sm:pb-0">
+                        <div className="">
                             {isLoading ? (
                                 <Skeleton height={300} width={250} />
                             ) : (
@@ -131,7 +131,7 @@ function SearchRender({ Id }) {
                             </div>
                         )}
                         {skin && (
-                            <div className="w-auto h-40 sm:h-80 relative">
+                            <div className="relative">
                                 {isSkinLoading && (
                                     <Skeleton height={300} width={250} className="absolute top-0 left-0 z-10" />
                                 )}
