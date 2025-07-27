@@ -12,6 +12,7 @@ import { renderSkin } from '../../../apiServices/searchRenderApi';
 ///Skeleton
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
+import clsx from 'clsx';
 
 function SearchRender({ Id }) {
     ////Chọn nhân vật
@@ -140,9 +141,10 @@ function SearchRender({ Id }) {
                                     src={skin.image}
                                     alt={skin.name}
                                     onLoad={() => setIsSkinLoading(false)}
-                                    className={`transition-opacity duration-300 ${
-                                        isSkinLoading ? 'opacity-0' : 'opacity-100'
-                                    }`}
+                                    className={clsx(
+                                        'transition-opacity duration-300',
+                                        isSkinLoading ? 'opacity-0' : 'opacity-100',
+                                    )}
                                 />
                             </div>
                         )}
