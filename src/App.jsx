@@ -8,16 +8,15 @@ function App() {
     return (
         <>
             <BrowserRouter>
-                <div className='dark:bg-black'>
-                <ScrollToTop/>
+                <div className="dark:bg-black">
+                    <ScrollToTop />
                     <Routes>
                         {publicRoutes.map((route, index) => {
                             const Page = route.component;
                             let Layout = DefautLayout;
                             if (route.layout === null) {
                                 Layout = Fragment;
-                            }
-                            else if(route.layout){
+                            } else if (route.layout) {
                                 Layout = route.layout;
                             }
                             return (
