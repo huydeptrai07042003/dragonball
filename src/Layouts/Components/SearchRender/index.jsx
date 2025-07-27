@@ -46,7 +46,7 @@ function SearchRender({ Id }) {
     return (
         <SkeletonTheme baseColor="#cccccc" highlightColor="#f5f5f5">
             <div className="pt-10 dark:text-white">
-                <div className="flex flex-col md:flex-row text-center gap-4">
+                <div className="flex flex-col md:flex-row text-center gap-4 ">
                     {character && (
                         <div className="ms-10">
                             {!character.name ? (
@@ -117,7 +117,7 @@ function SearchRender({ Id }) {
                             )}
                         </div>
                     )}
-                    <div className="flex w-auto mx-auto h-40 gap-10 lg:gap-40 xl:gap-70">
+                    <div className="flex w-auto mx-auto h-40 sm:h-80 gap-10 lg:gap-40 xl:gap-70">
                         <div className="w-auto h-40 sm:h-80">
                             {isLoading ? (
                                 <Skeleton height={300} width={250} />
